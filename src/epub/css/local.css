@@ -4,3 +4,46 @@
 section[epub|type~="chapter"]{
 	page-break-after: always;
 }
+
+blockquote{
+	margin: 1em;
+	font-style: italic;
+}
+
+blockquote[epub|type~="z3998:postal"]{
+	text-align: center;
+}
+
+blockquote[epub|type~="z3998:postal"] p{
+	display: inline-block;
+	text-align: left;
+}
+
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:sender"]{
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+[epub|type~="z3998:letter"] footer{
+	page-break-before: avoid;
+	page-break-inside: avoid;
+}
+
+[epub|type~="z3998:letter"] p.signature,
+[epub|type~="z3998:letter"] p[epub|type~="z3998:sender"]{
+	text-align: right;
+	text-indent: 0;
+}
+
+p span.i1{
+	padding-left: 1em;
+}
+
+p span.i2{
+	padding-left: 2em;
+}
+
+p span.i3{
+	padding-left: 3em;
+}
