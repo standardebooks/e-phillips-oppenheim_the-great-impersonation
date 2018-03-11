@@ -5,6 +5,10 @@ section[epub|type~="chapter"]{
 	page-break-after: always;
 }
 
+hr{
+	page-break-after: avoid;
+}
+
 blockquote{
 	margin: 1em;
 	font-style: italic;
