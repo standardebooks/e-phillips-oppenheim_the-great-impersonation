@@ -47,3 +47,7 @@ p span.i2{
 p span.i3{
 	padding-left: 3em;
 }
+
+abbr.name{
+	white-space: nowrap;
+}
