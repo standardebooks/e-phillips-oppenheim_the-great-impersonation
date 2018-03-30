@@ -29,6 +29,10 @@ blockquote[epub|type~="z3998:postal"] p{
 	font-style: normal;
 }
 
+[epub|type~="z3998:letter"] > p:last-of-type{
+	page-break-after: avoid;
+}
+
 [epub|type~="z3998:letter"] footer{
 	page-break-before: avoid;
 	page-break-inside: avoid;
