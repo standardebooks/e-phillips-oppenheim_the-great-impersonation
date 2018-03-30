@@ -34,8 +34,7 @@ blockquote[epub|type~="z3998:postal"] p{
 	page-break-inside: avoid;
 }
 
-[epub|type~="z3998:letter"] p.signature,
-[epub|type~="z3998:letter"] p[epub|type~="z3998:sender"]{
+[epub|type~="z3998:letter"] p.signature{
 	text-align: right;
 	text-indent: 0;
 }
