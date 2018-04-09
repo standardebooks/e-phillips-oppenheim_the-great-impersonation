@@ -32,24 +32,26 @@
 		<meta property="file-as" refines="#title">Great Impersonation, The</meta>
 		<dc:subject id="subject-1">Spy stories</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5815</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A German spy attempts to infiltrate English society by assuming the identity of his doppelganger.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			<p>It’s 1913, and war is on the horizon. The disgraced English aristocrat, Everard Dominey, is stumbling through East Africa when he comes across his old classmate and lookalike—the German Baron von Ragastein. Shortly after their chance encounter, Dominey returns to England. But is it really him, or a German secret agent, looking to infiltrate English society?</p>
+			<p>As Dominey attempts to resume his life, he must reacquaint himself with his insane and murderous wife, the passionate ex-lover that recognizes him, and uncover the mystery of the death that led to his exile.</p>
+			<p>Oppenheim’s classic spy-thriller was enormously popular when it was first published in 1920, selling over a million copies, and leading to three major motion pictures. It is featured on The Guardian’s list of “1000 Novels Everyone Must Read.”</p>
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5815</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100479958</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">Italics and an xml:lang attribute was added to the German word “Hoch” at the end of Chapter 14. Horizontal rules were added to mark section breaks that were missing from the Gutenberg transcription.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Great_Impersonation</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-phillips-oppenheim_the-great-impersonation</meta>
 		<dc:creator id="author">E. Phillips Oppenheim</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Oppenheim, E. Phillips</meta>
+		<meta property="se:name.person.full-name" refines="#author">Edward Phillips Oppenheim</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/E._Phillips_Oppenheim</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50003335</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -58,12 +60,18 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Dagny; John Bickers; David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<dc:contributor id="transcriber-1">Dagny</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Dagny</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="transcriber-2">John Bickers</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Bickers, John</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Gavin Elster</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Elster, Gavin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/elstgav</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
