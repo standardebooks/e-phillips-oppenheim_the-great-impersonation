@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/e-phillips-oppenheim/the-great-impersonation</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2018-04-21T17:44:29Z</dc:date>
+		<meta property="dcterms:modified">2018-04-21T17:44:29Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,15 +38,15 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;It’s 1913, and war is on the horizon. The disgraced English aristocrat, Everard Dominey, is stumbling through East Africa when he comes across his old classmate and lookalike—the German Baron von Ragastein. Shortly after their chance encounter, Dominey returns to England. But is it really him, or a German secret agent, looking to infiltrate English society?&lt;/p&gt;
 			&lt;p&gt;As Dominey attempts to resume his life, he must reacquaint himself with his insane and murderous wife, the passionate ex-lover that recognizes him, and uncover the mystery of the death that led to his exile.&lt;/p&gt;
-			&lt;p&gt;Oppenheim’s classic spy-thriller was enormously popular when it was first published in 1920, selling over a million copies, and leading to three major motion pictures. It is featured on The Guardian’s list of “1000 Novels Everyone Must Read.”&lt;/p&gt;
+			&lt;p&gt;Oppenheim’s classic spy-thriller was enormously popular when it was first published in 1920, selling over a million copies, and leading to three major motion pictures. It is featured on The Guardian’s list of “1,000 Novels Everyone Must Read.”&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5815</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100479958</dc:source>
 		<meta property="se:production-notes">Italics and an xml:lang attribute was added to the German word “Hoch” at the end of Chapter 14. Horizontal rules were added to mark section breaks that were missing from the Gutenberg transcription.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">76329</meta>
+		<meta property="se:reading-ease.flesch">74.9</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Great_Impersonation</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-phillips-oppenheim_the-great-impersonation</meta>
 		<dc:creator id="author">E. Phillips Oppenheim</dc:creator>
@@ -78,6 +78,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
