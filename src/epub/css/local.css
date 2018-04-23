@@ -1,16 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-section[epub|type~="chapter"]{
-	page-break-after: always;
-}
-
-hr{
-	page-break-after: avoid;
-}
 
 blockquote{
-	margin: 1em;
 	font-style: italic;
 }
 
@@ -23,36 +15,31 @@ blockquote[epub|type~="z3998:postal"] p{
 	text-align: left;
 }
 
+blockquote[epub|type~="z3998:postal"] span:nth-of-type(2){
+	padding-left: 1em;
+}
+
+blockquote[epub|type~="z3998:postal"] span:nth-of-type(3){
+	padding-left: 2em;
+}
+
+blockquote[epub|type~="z3998:postal"] span:nth-of-type(4){
+	padding-left: 3em;
+}
+
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:sender"]{
 	font-variant: small-caps;
 	font-style: normal;
 }
 
-[epub|type~="z3998:letter"] > p:last-of-type{
-	page-break-after: avoid;
-}
-
-[epub|type~="z3998:letter"] footer{
-	page-break-before: avoid;
-	page-break-inside: avoid;
-}
-
-[epub|type~="z3998:letter"] p.signature{
-	text-align: right;
+[epub|type~="z3998:letter"] p:first-child,
+[epub|type~="z3998:letter"] [epub|type~="z3998:salutation"]:first-child + p{
 	text-indent: 0;
 }
 
-p span.i1{
-	padding-left: 1em;
-}
-
-p span.i2{
-	padding-left: 2em;
-}
-
-p span.i3{
-	padding-left: 3em;
+footer{
+	text-align: right;
 }
 
 abbr.name{
