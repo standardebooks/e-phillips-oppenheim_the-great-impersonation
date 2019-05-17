@@ -26,20 +26,19 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Great Impersonation</dc:title>
 		<meta property="file-as" refines="#title">Great Impersonation, The</meta>
 		<dc:subject id="subject-1">Spy stories</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5815</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85127066</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A German spy attempts to infiltrate English society by assuming the identity of his doppelganger.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;It’s 1913, and war is on the horizon. The disgraced English aristocrat, Everard Dominey, is stumbling through East Africa when he comes across his old classmate and lookalike—the German Baron von Ragastein. Shortly after their chance encounter, Dominey returns to England. But is it really him, or a German secret agent, looking to infiltrate English society?&lt;/p&gt;
 			&lt;p&gt;As Dominey attempts to resume his life, he must reacquaint himself with his insane and murderous wife, the passionate ex-lover that recognizes him, and uncover the mystery of the death that led to his exile.&lt;/p&gt;
 			&lt;p&gt;Oppenheim’s classic spy-thriller was enormously popular when it was first published in 1920, selling over a million copies, and leading to three major motion pictures. It is featured on The Guardian’s list of “1,000 Novels Everyone Must Read.”&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5815</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100479958</dc:source>
