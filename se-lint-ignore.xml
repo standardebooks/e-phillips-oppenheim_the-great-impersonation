@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-21.xhtml">
+		<ignore>
+			<code>s-046</code>
+			<reason>spans are necessary for styling the text.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
