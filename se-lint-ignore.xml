@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-3.xhtml">
+		<ignore>
+			<code>t-043</code>
+			<reason>Punctuation is correct as printed.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-21.xhtml">
 		<ignore>
 			<code>s-046</code>
