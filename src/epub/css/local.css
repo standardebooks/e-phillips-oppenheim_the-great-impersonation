@@ -11,7 +11,7 @@ blockquote[epub|type~="z3998:postal"]{
 
 blockquote[epub|type~="z3998:postal"] p{
 	display: inline-block;
-	text-align: left;
+	text-align: initial;
 }
 
 blockquote[epub|type~="z3998:postal"] span:nth-of-type(2){
