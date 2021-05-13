@@ -46,7 +46,7 @@
 		<meta property="se:production-notes">Italics and an xml:lang attribute was added to the German word “Hoch” at the end of Chapter 14. Horizontal rules were added to mark section breaks that were missing from the Gutenberg transcription.</meta>
 		<meta property="se:word-count">76325</meta>
 		<meta property="se:reading-ease.flesch">74.9</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Great_Impersonation</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Great_Impersonation_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-phillips-oppenheim_the-great-impersonation</meta>
 		<dc:creator id="author">E. Phillips Oppenheim</dc:creator>
 		<meta property="file-as" refines="#author">Oppenheim, E. Phillips</meta>
