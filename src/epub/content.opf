@@ -32,6 +32,8 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85127066</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Haycraft Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A German spy attempts to infiltrate English society by assuming the identity of his doppelganger.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;It’s 1913, and war is on the horizon. The disgraced English aristocrat, Everard Dominey, is stumbling through East Africa when he comes across his old classmate and lookalike—the German Baron von Ragastein. Shortly after their chance encounter, Dominey returns to England. But is it really him, or a German secret agent, looking to infiltrate English society?&lt;/p&gt;
