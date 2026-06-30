@@ -1,0 +1,1 @@
+Italics and an `xml:lang` attribute was added to the German word “Hoch” at the end of Chapter 14. Horizontal rules were added to mark section breaks that were missing from the Gutenberg transcription.
