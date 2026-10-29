@@ -59,6 +59,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Eastman Johnson</dc:contributor>
 		<meta property="file-as" refines="#artist">Johnson, Eastman</meta>
+		<meta property="schema:alternateName" refines="#artist">Jonathan Eastman Johnson</meta>
 		<link href="https://en.wikipedia.org/wiki/Eastman_Johnson" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n83177936.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -71,6 +72,7 @@
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-3" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Gavin Elster</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Elster, Gavin</meta>
